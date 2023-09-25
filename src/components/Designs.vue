@@ -17,26 +17,26 @@
         
         <div class="space-y-2 md:space-y-6">
             <div class="grid grid-cols-4 gap-2 md:gap-6">
-                <img class="design-img col-span-full md:col-span-3 bg-slate-200" src="src\assets\images\coc-magazine.png" alt="">
+                <img class="design-img col-span-full md:col-span-3 bg-slate-200" src="../assets\images\coc-magazine.png" alt="">
                 <div class="hidden md:grid space-y-2 md:space-y-6">
                     <img class="h-auto max-w-full design-img" src="../assets\images\youll-be-safe-here-1.jpg" alt="">
                     <img class="h-auto max-w-full design-img" src="../assets/images/youll-be-safe-here-2.png" alt="">
                 </div>
-                <img class="design-img" src="src\assets\images\kabataan-alert.png" alt="">
-                <img class="design-img" src="src\assets\images\alert-breaking.png" alt="">
-                <img class="design-img" src="src\assets\images\kiloskabataanbumoto.png" alt="">
-                <img class="design-img" src="src\assets\images\legacy-restock-modal.png" alt="">
+                <img class="design-img" src="../assets\images\kabataan-alert.png" alt="">
+                <img class="design-img" src="../assets\images\alert-breaking.png" alt="">
+                <img class="design-img" src="../assets\images\kiloskabataanbumoto.png" alt="">
+                <img class="design-img" src="../assets\images\legacy-restock-modal.png" alt="">
             </div>
             <div class="grid grid-cols-12 gap-2 md:gap-6">
-                <img class="design-img col-span-12 md:col-span-9" src="src\assets\images\web-design-great-meetings.png" alt="">
+                <img class="design-img col-span-12 md:col-span-9" src="../assets\images\web-design-great-meetings.png" alt="">
                 <div class="hidden md:grid col-span-3 space-y-2 md:space-y-6">
-                    <img class="design-img" src="src\assets\images\no-face-2.png" alt="">
-                    <img class="design-img" src="src\assets\images\woman-and-dessert.png" alt="">
+                    <img class="design-img" src="../assets\images\no-face-2.png" alt="">
+                    <img class="design-img" src="../assets\images\woman-and-dessert.png" alt="">
                 </div>
             </div>
             <div class="grid grid-cols-2 gap-2 md:gap-6">
-                <img class="design-img" src="src\assets\images\women-in-gaming.png" alt="">
-                <img class="design-img" src="src\assets\images\soc-med-campaign.png" alt="">
+                <img class="design-img" src="../assets\images\women-in-gaming.png" alt="">
+                <img class="design-img" src="../assets\images\soc-med-campaign.png" alt="">
             </div>
         </div>
     </div>
