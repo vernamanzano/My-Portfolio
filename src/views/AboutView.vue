@@ -7,7 +7,7 @@
             I can learn anything. <br class="block md:hidden"> I can know anything. <br class="block md:hidden"> I can be anything.
         </header>
 
-        <div class="grid grid-none lg:grid-cols-3 gap-8 lg:gap-32 my-20 text-xl">
+        <div class="grid grid-none lg:grid-cols-3 gap-8 xl:gap-32 my-20 text-xl">
             <div class="space-y-8">
                 <p>
                     Hi, my name is Verna and that quote above is what keeps me going.
@@ -75,7 +75,7 @@
             </div>
         </div>
 
-        <div class="lg:w-2/3">
+        <div class="xl:w-2/3">
             <ul class="flex flex-wrap text-sm md:text-regular">
                 <li class="skill">
                     HTML

@@ -4,7 +4,7 @@
 <template>
     <div id="front-end-section" class="pt-20 space-y-4 text-dark-charcoal">
         <div class="flex items-end justify-between mb-8">
-            <h2 class="text-6xl md:text-8xl font-semibold text-dark-charcoal pl-1">
+            <h2 class="text-5xl md:text-8xl font-semibold text-dark-charcoal">
                 Front End Projects
             </h2>
             <p class="bg-dark-charcoal text-white rounded-full px-4 py-2">
@@ -14,8 +14,8 @@
 
         <div>
             <div class="space-y-4">
-                <a href="https://aceada.com/" class="text-5xl pl-1"> AceADA </a>
-                <ul class="flex text-sm md:text-regular space-x-2 md:space-x-4">
+                <a href="https://aceada.com/" class="text-3xl md:text-5xl"> AceADA </a>
+                <ul class="flex flex-wrap gap-2">
                     <li class="skill">
                         HTML
                     </li>
@@ -24,6 +24,9 @@
                     </li>
                     <li class="skill">
                         Tailwind CSS
+                    </li>
+                    <li class="skill">
+                        JS
                     </li>
                     <li class="skill">
                         Vue.js
@@ -35,7 +38,7 @@
                         Figma
                     </li>
                 </ul>
-                <ul class="list-disc pl-5 lg:w-1/2 text-sm space-y-2">
+                <ul class="list-disc pl-5 lg:w-1/2 space-y-2">
                     <li>
                         Enhanced an inclusive accessibility application, enabling dynamic website adjustments to cater to diverse user needs, including enhanced focus, voice commands, screen reader, and other features.
                     </li>
@@ -52,8 +55,8 @@
 
         <div class="py-8">
             <div class="space-y-4">
-                <a href="https://easyhire.app/" target="_blank" class="text-5xl"> EasyHire </a>
-                <ul class="flex text-sm md:text-regular space-x-2 md:space-x-4">
+                <a href="https://easyhire.app/" target="_blank" class="text-3xl md:text-5xl"> EasyHire </a>
+                <ul class="flex flex-wrap gap-2">
                     <li class="skill">
                         HTML
                     </li>
@@ -73,7 +76,7 @@
                         Figma
                     </li>
                 </ul>
-                <ul class="list-disc pl-5 lg:w-1/2 text-sm space-y-2">
+                <ul class="list-disc pl-5 lg:w-1/2 space-y-2">
                     <li>
                         Designed and developed an employment website for candidates and employers
                     </li>
@@ -90,8 +93,8 @@
 
         <div>
             <div class="space-y-4">
-                <a href="https://restock.legacyseller.com/" class="text-5xl"> Legacy Restock </a>
-                <ul class="flex text-sm md:text-regular space-x-2 md:space-x-4">
+                <a href="https://restock.legacyseller.com/" class="text-3xl md:text-5xl"> Legacy Restock </a>
+                <ul class="flex flex-wrap gap-2">
                     <li class="skill">
                         HTML
                     </li>
@@ -111,7 +114,7 @@
                         Figma
                     </li>
                 </ul>
-                <ul class="list-disc pl-5 lg:w-1/2 text-sm space-y-2">
+                <ul class="list-disc pl-5 lg:w-1/2 space-y-2">
                     <li>
                         Developed webpages serving sellers to efficiently manage and replenish their Amazon inventory
                     </li>

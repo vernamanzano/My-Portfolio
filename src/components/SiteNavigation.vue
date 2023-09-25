@@ -1,10 +1,10 @@
 <template>
-    <header class="z-50 bg-white/90 flex flex-col md:flex-row items-center justify-between font-Jakarta font-semibold sticky top-0 text-dark-charcoal">
+    <header class="z-50 bg-white/90 flex flex-col md:flex-row items-center justify-between font-Jakarta font-semibold sticky top-0 text-dark-charcoal px-4">
         <div class="w-1/3">
             <img class="header-image mx-auto md:mx-0" src="../assets/images/my_baby_white.png">
         </div>
         
-        <nav class="dark:bg-dark-charcoal w-1/3 p-2">
+        <nav class="w-1/3 p-2">
             <div class="flex items-center justify-center text-dark-charcoal capitalize font-bold dark:text-white">
                 <a id="nav-projects" href="/" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-slate-700 mx-1.5 sm:mx-6">Projects</a>
         

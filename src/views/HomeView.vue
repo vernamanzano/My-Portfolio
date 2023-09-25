@@ -1,39 +1,36 @@
 <script setup>
   import FrontEnd from '../components/FrontEnd.vue';
-  import Designs from '../components/Designs.vue';
+  import MeVentures from '../components/MeVentures.vue';
+  import DesignWork from '../components/DesignWork.vue';
 </script>
 
 <template>
-  <main class="font-Jakarta container my-16 md:my-20">
+  <main class="font-Jakarta container mt-10 mb-16 md:my-20">
     <div class=" text-dark-charcoal dark:text-white text-center space-y-4">
       <h1 class="text-5xl md:text-8xl font-bold"> Hi, I'm Verna.</h1>
-      <p class="text-lg md:text-2xl font-Jakarta">
+      <p class="text-md md:text-2xl font-Jakarta">
         I make ideas visible through code and design. 
       </p>
     </div>
 
-    <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-8 my-8 md:my-16 text-slate-700 font-semibold">
-      <div class="project-card frontend-card shadow-lg flex justify-start items-center pl-5">
-        <a href="#front-end-section">
-          <h2 class="text-8xl">
-            front<br>end
-          </h2>
-        </a>
-      </div>
-      <div class="project-card graphic-card shadow-lg flex justify-center items-center text-end pr-4">
-        <a href="#designs-section">
-          <h2 class="text-7xl leading-10 my-28">
-            <span>Designs</span><br>
-            <span class="text-4xl">& Illustrations</span>
-          </h2>
-        </a>
-      </div>
-      <div class="project-card uiux-card shadow-lg flex justify-end items-center p-6">
-        <h2 class="text-end text-7xl leading-10 my-28">
-          <span>outside</span><br>
-          <span class="text-7xl">design</span>
+    <div class="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-6 xl:gap-8 my-8 md:my-16 text-slate-700 font-semibold">
+      <a href="#front-end-section" class="project-card frontend-card">
+        <h2 class="text-6xl md:text-7xl">
+          front<br>end
         </h2>
-      </div>
+      </a>
+      <a href="#design-work-section" class="project-card graphic-card">
+        <h2 class="text-6xl md:text-7xl">
+          <span>design</span><br>
+          <span>work</span>
+        </h2>
+      </a>
+      <a href="#me-ventures-section" class="project-card me-ventures-card">
+        <h2 class="text-6xl md:text-7xl">
+          <span>me-</span><br>
+          <span class="tracking-tight">ventures</span>
+        </h2>
+      </a>
     </div>
 
     <div class="flex justify-center gap-4 pt-8">
@@ -59,7 +56,8 @@
 
     <div class="px-4">
       <FrontEnd />
-      <Designs />
+      <DesignWork />
+      <MeVentures />
     </div>
 
   </main>
@@ -71,15 +69,28 @@
     height: 70px;
   }
   .project-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     height: 350px;
     width: 350px;
     border-radius: 36px;
     background-size: cover;
     background: white;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
   }
+
+  @media only screen and (max-width: 768px) {
+    .project-card {
+      max-height: 200px;
+      max-width: 300px;
+    }
+  }
+
   .project-card:hover{
     transform: scale(1.1);
     background-color: rgb(241 245 249);
@@ -90,7 +101,7 @@
   .graphic-card {
     background-image: url("../assets/images/Texture_2.png");
   }
-  .uiux-card {
+  .me-ventures-card {
     background-image: url("../assets/images/Texture_3.png");
   }
 </style>
