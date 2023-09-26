@@ -18,24 +18,27 @@
         <div class="space-y-2 md:space-y-6">
             <div class="text-3xl md:text-5xl"> Gallery of Personal Projects </div>
             <div class="grid grid-cols-3 gap-2 md:gap-6">
-                <img class="design-img col-span-3" src="../assets\images\coc-magazine.png" alt="">
-                <img class="design-img" src="../assets\images\kabataan-alert.png" alt="">
-                <img class="design-img" src="../assets\images\alert-breaking.png" alt="">
-                <img class="design-img" src="../assets\images\kiloskabataanbumoto.png" alt="">
+                <img class="design-img col-span-3" src="../assets\images\coc-magazine.png" alt="magazine layout">
+                <img class="design-img" src="../assets\images\kabataan-alert.png" alt="publicity material">
+                <img class="design-img" src="../assets\images\alert-breaking.png" alt="publicity material">
+                <img class="design-img" src="../assets\images\kiloskabataanbumoto.png" alt="publicity material">
             </div>
             <div class="grid grid-cols-2 gap-2 md:gap-6">
-                <img class="h-auto max-w-full design-img" src="../assets\images\youll-be-safe-here-1.jpg" alt="">
-                <img class="h-auto max-w-full design-img" src="../assets/images/youll-be-safe-here-2.png" alt="">
+                <img class="h-auto max-w-full design-img" src="../assets\images\youll-be-safe-here-1.jpg" alt="illustration">
+                <img class="h-auto max-w-full design-img" src="../assets/images/youll-be-safe-here-2.png" alt="illustration">
+            </div>
+            <div>
+                <img class="design-img" src="../assets\images\web-design-great-meetings.png" alt="web design">
             </div>
             <div class="grid grid-cols-4 gap-2 md:gap-6">
-                <img class="design-img" src="../assets\images\no-face-1.png" alt="">
-                <img class="design-img" src="../assets\images\no-face-2.png" alt="">
-                <img class="design-img" src="../assets\images\no-face-3.png" alt="">
-                <img class="design-img" src="../assets\images\woman-and-dessert.png" alt="">
+                <img class="design-img" src="../assets\images\no-face-1.png" alt="vector art">
+                <img class="design-img" src="../assets\images\no-face-2.png" alt="vector art">
+                <img class="design-img" src="../assets\images\no-face-3.png" alt="vector art">
+                <img class="design-img" src="../assets\images\woman-and-dessert.png" alt="vector art">
             </div>
             <div class="grid grid-cols-2 gap-2 md:gap-6">
-                <img class="design-img" src="../assets\images\women-in-gaming.png" alt="">
-                <img class="design-img" src="../assets\images\soc-med-campaign.png" alt="">
+                <img class="design-img" src="../assets\images\women-in-gaming.png" alt="presentation slide">
+                <img class="design-img" src="../assets\images\soc-med-campaign.png" alt="presentation slide">
             </div>
         </div>
     </div>
@@ -43,7 +46,7 @@
 
 <style scoped>
 .design-img {
-    border-radius: 36px;
+    /* border-radius: 36px; */
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
