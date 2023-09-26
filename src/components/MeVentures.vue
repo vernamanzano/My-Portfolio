@@ -15,28 +15,28 @@
             </div>
         </div>
         
-        <div class="space-y-2 md:space-y-6">
+        <div class="space-y-3 md:space-y-6">
             <div class="text-3xl md:text-5xl"> Gallery of Personal Projects </div>
-            <div class="grid grid-cols-3 gap-2 md:gap-6">
+            <div class="grid grid-cols-3 gap-3 md:gap-6">
                 <img class="design-img col-span-3" src="../assets\images\coc-magazine.png" alt="magazine layout">
                 <img class="design-img" src="../assets\images\kabataan-alert.png" alt="publicity material">
                 <img class="design-img" src="../assets\images\alert-breaking.png" alt="publicity material">
                 <img class="design-img" src="../assets\images\kiloskabataanbumoto.png" alt="publicity material">
             </div>
-            <div class="grid grid-cols-2 gap-2 md:gap-6">
+            <div class="grid grid-cols-2 gap-3 md:gap-6">
                 <img class="h-auto max-w-full design-img" src="../assets\images\youll-be-safe-here-1.jpg" alt="illustration">
                 <img class="h-auto max-w-full design-img" src="../assets/images/youll-be-safe-here-2.png" alt="illustration">
             </div>
             <div>
                 <img class="design-img" src="../assets\images\web-design-great-meetings.png" alt="web design">
             </div>
-            <div class="grid grid-cols-4 gap-2 md:gap-6">
+            <div class="grid grid-cols-4 gap-3 md:gap-6">
                 <img class="design-img" src="../assets\images\no-face-1.png" alt="vector art">
                 <img class="design-img" src="../assets\images\no-face-2.png" alt="vector art">
                 <img class="design-img" src="../assets\images\no-face-3.png" alt="vector art">
                 <img class="design-img" src="../assets\images\woman-and-dessert.png" alt="vector art">
             </div>
-            <div class="grid grid-cols-2 gap-2 md:gap-6">
+            <div class="grid grid-cols-2 gap-3 md:gap-6">
                 <img class="design-img" src="../assets\images\women-in-gaming.png" alt="presentation slide">
                 <img class="design-img" src="../assets\images\soc-med-campaign.png" alt="presentation slide">
             </div>
@@ -59,9 +59,9 @@
     box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 } */
 
-@media only screen and (max-width: 1024px) {
-    .design-img {
-        border-radius: 8px;
-    }
+/* @media only screen and (max-width: 1024px) {
+  .design-img {
+      border-radius: 8px;
   }
+}*/
 </style>

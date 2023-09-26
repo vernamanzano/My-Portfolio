@@ -12,14 +12,14 @@
             </div>
         </div>
 
-        <div class="space-y-2 md:space-y-6">
+        <div class="space-y-3 md:space-y-6">
             <div class="text-3xl md:text-5xl"> A glimpse of my graphic design projects </div>
         </div>
-        <div class="space-y-6">
+        <div class="space-y-3 md:space-y-6">
             <div>
                 <img class="img-fluid" src="../assets\images\posters-1.png" alt="posters">
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-6">
                 <div class="flex">
                     <img class="w-1/2 shadow-xl" src="../assets\images\feb-payday-sale-1.png" alt="february payday sale poster">
                     <img class="w-1/2 shadow-xl" src="../assets\images\feb-payday-sale-2.png" alt="february payday sale poster">
@@ -32,13 +32,13 @@
             <div>
                 <img class="shadow-xl" src="../assets\images\bounty-fresh-summer-sale.png" alt="bounty fresh summer sale poster">
             </div>
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
                 <img class="shadow-xl" src="../assets\images\banana-lakatan.png" alt="banana lakatan poster">
                 <img class="shadow-xl" src="../assets\images\jinro.png" alt="jinro poster">
                 <img class="shadow-xl" src="../assets\images\strong-zero.png" alt="strong zero poster">
                 <img class="shadow-xl" src="../assets\images\novellino.png" alt="novellino poster">
             </div>
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-2 gap-3 md:gap-6">
                 <img class="shadow-xl" src="../assets\images\bounty-fresh-free-box.png" alt="banana lakatan poster">
                 <img class="shadow-xl" src="../assets\images\chill-spiked-spirit.png" alt="banana lakatan poster">
             </div>
