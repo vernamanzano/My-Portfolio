@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <main class="font-Jakarta container mt-10 mb-16 md:my-20">
+  <main class="font-Jakarta container mt-10 mb-16 mb-0 md:mt-20 md:mb-0">
     <div class=" text-dark-charcoal dark:text-white text-center space-y-4">
       <h1 class="text-5xl md:text-8xl font-bold"> Hi, I'm Verna.</h1>
       <p class="text-md md:text-2xl font-Jakarta">
@@ -58,6 +58,14 @@
       <FrontEnd />
       <DesignWork />
       <MeVentures />
+    </div>
+
+    <div class="text-center text-xs">
+      <p class="p-10 text-gray-500">
+        &copy; All Rights Reserved (2023) <br>
+        Vernalyn Manzano
+      </p>
+
     </div>
 
   </main>
