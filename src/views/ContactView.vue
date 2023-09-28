@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <main class="min-h-screen flex justify-center self-center items-center font-Jakarta container space-y-6 px-4 text-dark-charcoal text-center">
+    <main id="contact-page" class="flex justify-center items-center font-Jakarta container space-y-6 px-4 text-dark-charcoal text-center">
         <div class="mb-32">
             <div class="space-y-2">
                 <h1 class="text-7xl lg:text-8xl font-bold">
@@ -30,4 +30,7 @@
 </template>
 
 <style scoped>
+    #contact-page {
+        height: 90vh;
+    }
 </style>

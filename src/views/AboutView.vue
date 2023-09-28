@@ -22,6 +22,9 @@
                             In this ever-evolving digital landscape, I've come to appreciate that adaptability and a thirst for learning are my strongest assets.
                             
                         </p>
+                        <p>
+                            After college, I decided to pursue being a web developer by studying and by the help of my mentor in the IT field.
+                        </p>
                         
                     </div>
                 </div>
@@ -30,11 +33,11 @@
             </div>
             <div>
                 <p>
-                    My background in Broadcasting has taught me the art of effective communication, and now I'm using those skills to communicate through code, layout, and design elements.
+                    Still, my degree in Broadcasting has taught me the art of effective communication, and now I'm using those skills to communicate through code, layout, and design elements.
                     <br>
                     <br>
                     
-                    So, if you're wondering how a Broadcasting grad fits into the world of design and web development, the answer is simple:
+                    So, if you're wondering how I fit into the world of design and web development, the answer is simple:
 
                     <br>
                     <br>
