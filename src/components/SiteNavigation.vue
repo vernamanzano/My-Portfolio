@@ -5,12 +5,12 @@
         </div>
         
         <nav class="w-1/3 p-2">
-            <div class="flex items-center justify-center text-dark-charcoal capitalize font-bold dark:text-white">
-                <a id="nav-projects" href="/" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-slate-700 mx-1.5 sm:mx-6">Projects</a>
+            <div class="flex items-center justify-center text-dark-charcoal capitalize font-bold">
+                <a id="nav-projects" href="/" class="border-b-2 border-transparent hover:text-gray-800 hover:border-slate-700 mx-1.5 sm:mx-6">Projects</a>
         
-                <a id="nav-about" href="/about" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-slate-700 mx-1.5 sm:mx-6">About</a>
+                <a id="nav-about" href="/about" class="border-b-2 border-transparent hover:text-gray-800 hover:border-slate-700 mx-1.5 sm:mx-6">About</a>
         
-                <a id="nav-contact" href="/contact" class="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-slate-700 mx-1.5 sm:mx-6">Contact</a>
+                <a id="nav-contact" href="/contact" class="border-b-2 border-transparent hover:text-gray-800 hover:border-slate-700 mx-1.5 sm:mx-6">Contact</a>
             </div>
         </nav>
         <a class="justify-end text-end text-sm hidden md:flex w-1/3 px-2">
