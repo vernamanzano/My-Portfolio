@@ -23,7 +23,7 @@
                             
                         </p>
                         <p>
-                            After college, I decided to pursue being a web developer by studying and by the help of my mentor in the IT field.
+                            After college, I decided to pursue being hone my technical skills by studying and by the help of my mentor in the IT field.
                         </p>
                         
                     </div>
