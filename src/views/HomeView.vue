@@ -1,5 +1,5 @@
 <script setup>
-  import FrontEnd from '../components/FrontEnd.vue';
+  import DevWork from '../components/DevWork.vue';
   import MeVentures from '../components/MeVentures.vue';
   import DesignWork from '../components/DesignWork.vue';
 </script>
@@ -14,9 +14,9 @@
     </div>
 
     <div class="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-6 xl:gap-8 my-8 md:my-16 text-slate-700 font-semibold">
-      <a href="#front-end-section" class="project-card frontend-card">
+      <a href="#dev-work-section" class="project-card dev-card">
         <h2 class="text-6xl md:text-7xl">
-          front<br>end
+          dev<br>work
         </h2>
       </a>
       <a href="#design-work-section" class="project-card graphic-card">
@@ -55,7 +55,7 @@
     </div>
 
     <div class="px-4">
-      <FrontEnd />
+      <DevWork />
       <DesignWork />
       <MeVentures />
     </div>
@@ -103,7 +103,7 @@
     transform: scale(1.1);
     background-color: rgb(241 245 249);
   }
-  .frontend-card {
+  .dev-card {
     background-image: url("../assets/images/Texture_1.png");
   }
   .graphic-card {

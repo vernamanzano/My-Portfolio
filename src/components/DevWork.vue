@@ -2,10 +2,10 @@
 </script>
 
 <template>
-    <div id="front-end-section" class="pt-20 space-y-4 text-dark-charcoal">
+    <div id="dev-work-section" class="pt-20 space-y-4 text-dark-charcoal">
         <div class="flex items-end justify-between mb-8">
             <h2 class="text-5xl md:text-8xl font-semibold text-dark-charcoal">
-                Front End Projects
+                Dev Work
             </h2>
             <p class="bg-dark-charcoal text-white rounded-full px-4 py-2">
                 2023
